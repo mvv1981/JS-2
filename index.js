@@ -4,5 +4,5 @@
  * @returns {Boolean}
  */
 module.exports = function (hours, minutes) {
-
+	return (hours >= 0 && minutes >= 0) && (hours <= 23 && minutes <= 59 );
 };
